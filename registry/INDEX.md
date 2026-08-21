@@ -56,3 +56,5 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 > Reserved entries are placeholders only. They do not constitute a complete technical disclosure until their corresponding specification is populated and released.
 
 > EXPERIMENTAL means that a concrete mechanism has been disclosed and development evidence exists or the mechanism is sufficiently specified for implementation, but independent validation and/or a fully pinned reproducibility package is still outstanding.
+
+> The registry records what has been technically disclosed. It does not by itself establish novelty, patentability, freedom to operate, scientific validity, or commercial performance; those require separate evidence and legal/technical review.
