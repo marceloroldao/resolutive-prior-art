@@ -39,22 +39,22 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| RT-0001 | Reserved: Reversible Trajectory State System | DRAFT | 0.1 | — |
+| [RT-0001](../disclosures/TRAJECTORY/RT-0001.md) | Reversible Trajectory State System | EXPERIMENTAL | 0.1 | — |
 
 ## Bit Analysis
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| BA-0001 | Reserved: Hierarchical Bit-Relation Analysis | DRAFT | 0.1 | — |
+| [BA-0001](../disclosures/BIT_ANALYSIS/BA-0001.md) | Hierarchical Bit-Relation Analysis | EXPERIMENTAL | 0.1 | — |
 
 ## Resolutive Physics
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| RP-0001 | Reserved: Resolutive Physics Foundational Model | DRAFT | 0.1 | — |
-
-> Reserved entries are placeholders only. They do not constitute a complete technical disclosure until their corresponding specification is populated and released.
+| [RP-0001](../disclosures/PHYSICS/RP-0001.md) | Resolutive Physics Foundational Model | EXPERIMENTAL | 0.1 | related model DOI: 10.5281/zenodo.21936796 |
 
 > EXPERIMENTAL means that a concrete mechanism has been disclosed and development evidence exists or the mechanism is sufficiently specified for implementation, but independent validation and/or a fully pinned reproducibility package is still outstanding.
 
 > The registry records what has been technically disclosed. It does not by itself establish novelty, patentability, freedom to operate, scientific validity, or commercial performance; those require separate evidence and legal/technical review.
+
+See [EVIDENCE_MATRIX.md](EVIDENCE_MATRIX.md) for cross-repository evidence strength, pinned commits, visibility, archives, and remaining gaps.
