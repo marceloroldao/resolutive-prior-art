@@ -13,9 +13,9 @@ This matrix links each Resolutive disclosure to public or private implementation
 |---|---|---|---|---|---|---|
 | RM-0001 | `marceloroldao/memoria.ia` | Public | `c1585f6...` stable v0.95.0 line; `263a731...` current docs lineage | `10.5281/zenodo.21973472` (v0.95.1 citation record) | A/B | Pin exact core source/test paths for each normative RM primitive and archive this registry disclosure. |
 | RM-0002 | `marceloroldao/trajectory.generator` + `memoria.ia` | Public | trajectory exact-roundtrip/test line including `bfd08d2...` | none specific | B | Prove reconstruction contract with all descriptor/side-information bits accounted for; do not infer compression. |
-| MA2A-0001 | `marceloroldao/memoria.ia` protocol RFC | Public | `b2fef4b...` add MA2A v0.1 RFC; `263a731...` link protocol specification | none specific | C | Freeze reference implementation and wire-level interoperability tests. |
-| MA2A-0002 | MA2A specification / future L3 implementation | Public specification | registry disclosure; implementation not yet frozen | none | C | Implement deterministic conflict rules and replay/convergence test matrix. |
-| MA2A-0003 | MA2A specification / future PKI implementation | Public specification | registry disclosure; implementation not yet frozen | none | C | Implement Ed25519 hierarchy, certificate lifecycle, revocation, challenge-response and security tests. |
+| MA2A-0001 | `marceloroldao/ma2a` + prior RFC in `memoria.ia` | Public | MA2A bootstrap branch; `b2fef4b...` prior RFC lineage | none specific | B/C | Freeze v0.1 release/tag and add wire-level interoperability tests. |
+| MA2A-0002 | `marceloroldao/ma2a` | Public | deterministic conflict resolver + convergence/replay/scope/stale tests on `bootstrap/v0.1-dev` | none | B | Obtain CI evidence, freeze policy version and archive release. |
+| MA2A-0003 | `marceloroldao/ma2a` | Public | `2889e63...` Ed25519 certificate/handshake reference; `ba21c07...` negative auth tests | none | B/C | Complete CI/security review, add tampered-certificate/delegation tests, freeze release and archive DOI. |
 | TRI-0001 | `marceloroldao/trivax` | Public | `0386fe8...` v0.1.0 package freeze; `f58d625...` archived v0.1.1 DOI update | `10.5281/zenodo.21989027` | A | Pin disclosure sections to exact runtime/benchmark paths and preserve archived result artifacts. |
 | RI-0001 | `marceloroldao/resolutive-inference` | **Private** at audit date | `9bd6f46...` streaming edge infrastructure; `b494af9...` synthetic benchmark foundation | none | D | Publish a sufficient implementation/reproducibility baseline or ensure the public disclosure itself is enabling and archive it. |
 | RC-0001 | `marceloroldao/resolutive-computing` | Public | `1122766...` initial public repository baseline; `60b0f56...` governance/licensing alignment | none | B/C | Pin benchmark scripts/results supporting coarse-to-fine claims and archive a reproducible release. |
@@ -37,15 +37,15 @@ These DOIs archive project/release evidence. They do not automatically archive e
 
 ### 2. Public Git history is useful but not equivalent to an archival disclosure
 
-Trajectory Generator and Bit Analyze currently have useful public implementation/test history. Their evidence strength will improve materially once a release/tag and immutable archive bind the implementation, tests, documentation and disclosure to the same snapshot.
+Trajectory Generator, Bit Analyze and MA2A now have useful public implementation/test history. Their evidence strength will improve materially once release tags and immutable archives bind implementation, tests, documentation and disclosure to the same snapshot.
 
 ### 3. Private repositories are not relied upon as public prior art
 
 `resolutive-inference` was private when audited on 2026-08-21. Its commits can support internal provenance, but they are not treated here as public disclosure evidence. RI-0001 must therefore stand on the public specification until a sufficient implementation baseline is made public and archived.
 
-### 4. MA2A requires implementation evidence
+### 4. MA2A now has executable public evidence
 
-MA2A has a public RFC lineage in `memoria.ia`, but MA2A-0002 and MA2A-0003 remain specification-first disclosures. Their next evidentiary milestone is executable conformance/security testing, not more architectural prose.
+The dedicated public `marceloroldao/ma2a` repository now contains the protocol draft, a deterministic conflict-resolution reference implementation, an Ed25519 organization/device certificate model, challenge-response authentication, and negative tests. The remaining milestone is not more architecture prose: it is CI/security evidence, interoperability testing, release freeze and archival DOI.
 
 ### 5. Physics requires claim-by-claim separation
 
