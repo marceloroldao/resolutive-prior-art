@@ -22,3 +22,4 @@ Only concrete public disclosures are entered here. Draft placeholders belong in 
 3. A `PUBLISHED` entry should reference an immutable release/tag and, when available, an archival DOI.
 4. A later technical improvement receives a new version or disclosure ID rather than silently changing the historical record.
 5. `EXPERIMENTAL` records may document concrete mechanisms before a frozen archival release, but must state unresolved evidence and reproducibility gaps.
+6. Registration establishes a chronology of disclosure; it is not, by itself, a legal conclusion that a feature is novel, patentable, non-infringing, or scientifically validated.
