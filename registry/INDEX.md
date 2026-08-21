@@ -58,3 +58,5 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 > The registry records what has been technically disclosed. It does not by itself establish novelty, patentability, freedom to operate, scientific validity, or commercial performance; those require separate evidence and legal/technical review.
 
 See [EVIDENCE_MATRIX.md](EVIDENCE_MATRIX.md) for cross-repository evidence strength, pinned commits, visibility, archives, and remaining gaps.
+
+See [AUDIT_STATUS.md](AUDIT_STATUS.md) for the current v0.1 release gate and blockers.
