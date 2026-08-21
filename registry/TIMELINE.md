@@ -11,6 +11,9 @@ Only concrete public disclosures are entered here. Draft placeholders belong in 
 | 2026-08-21 | MA2A-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | L1/L2/L3 state-synchronization architecture disclosed; LLM semantics remain edge-side and optional. |
 | 2026-08-21 | MA2A-0002 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Versioned trajectory-delta synchronization and deterministic conflict classes disclosed. |
 | 2026-08-21 | MA2A-0003 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Organization-rooted Ed25519 PKI, delegated device credentials, challenge-response admission, and revocation/licensing-status separation disclosed. |
+| 2026-08-21 | TRI-0001 | 0.1 | EXPERIMENTAL | existing TRIVAX release lineage | 10.5281/zenodo.21989027 | Compact resolutive decision-core architecture disclosed; benchmark superiority not claimed. |
+| 2026-08-21 | RI-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Compact edge inference with bounded online adaptation disclosed. |
+| 2026-08-21 | RC-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Coarse-to-fine resolutive search/refinement architecture disclosed; no universal speedup claimed. |
 
 ## Rules
 
