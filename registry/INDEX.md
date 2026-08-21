@@ -21,19 +21,19 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| TRI-0001 | Reserved: TRIVAX Core Technical Disclosure | DRAFT | 0.1 | — |
+| [TRI-0001](../disclosures/TRIVAX/TRI-0001.md) | TRIVAX Core Technical Disclosure | EXPERIMENTAL | 0.1 | 10.5281/zenodo.21989027 |
 
 ## Resolutive Inference
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| RI-0001 | Reserved: Resolutive Inference Core | DRAFT | 0.1 | — |
+| [RI-0001](../disclosures/INFERENCE/RI-0001.md) | Resolutive Inference Core | EXPERIMENTAL | 0.1 | — |
 
 ## Resolutive Computing
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| RC-0001 | Reserved: Resolutive Computing Core | DRAFT | 0.1 | — |
+| [RC-0001](../disclosures/COMPUTING/RC-0001.md) | Resolutive Computing Core | EXPERIMENTAL | 0.1 | — |
 
 ## Resolutive Trajectory
 
