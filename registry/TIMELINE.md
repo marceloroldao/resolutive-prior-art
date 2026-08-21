@@ -12,8 +12,11 @@ Only concrete public disclosures are entered here. Draft placeholders belong in 
 | 2026-08-21 | MA2A-0002 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Versioned trajectory-delta synchronization and deterministic conflict classes disclosed. |
 | 2026-08-21 | MA2A-0003 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Organization-rooted Ed25519 PKI, delegated device credentials, challenge-response admission, and revocation/licensing-status separation disclosed. |
 | 2026-08-21 | TRI-0001 | 0.1 | EXPERIMENTAL | existing TRIVAX release lineage | 10.5281/zenodo.21989027 | Compact resolutive decision-core architecture disclosed; benchmark superiority not claimed. |
-| 2026-08-21 | RI-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Compact edge inference with bounded online adaptation disclosed. |
+| 2026-08-21 | RI-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Compact edge inference with bounded online adaptation disclosed; primary implementation was private at audit date. |
 | 2026-08-21 | RC-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Coarse-to-fine resolutive search/refinement architecture disclosed; no universal speedup claimed. |
+| 2026-08-21 | RT-0001 | 0.1 | EXPERIMENTAL | public development evidence | — | Reversible trajectory system tied to public exact-roundtrip test lineage; no compression claim. |
+| 2026-08-21 | BA-0001 | 0.1 | EXPERIMENTAL | public development evidence | — | Hierarchical bit-relation analysis tied to adaptive-protection validation/overhead benchmark lineage. |
+| 2026-08-21 | RP-0001 | 0.1 | EXPERIMENTAL | related archived coupled-field model | 10.5281/zenodo.21936796 | Foundational physics registry entry; archived coupled-field model is evidence only for that concrete model, not broader ontology. |
 
 ## Rules
 
