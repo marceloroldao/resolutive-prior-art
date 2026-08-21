@@ -2,11 +2,21 @@
 
 Chronological registry of public technical disclosures in the Resolutive Technology family.
 
-Only stable public disclosures should be entered here. Draft placeholders belong in `registry/INDEX.md` until publication.
+Only concrete public disclosures are entered here. Draft placeholders belong in `registry/INDEX.md` until a specification exists.
 
 | Date | ID | Version | Status | Release | DOI | Notes |
 |---|---|---:|---|---|---|---|
-| — | — | — | — | — | — | No frozen disclosure registered yet |
+| 2026-08-21 | RM-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | Memoria.ia project record 10.5281/zenodo.21973472 | Core resolutive-memory mechanism disclosed; O(1) claim explicitly limited to known-address resolution. |
+| 2026-08-21 | RM-0002 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Trajectory descriptor architecture disclosed; hash treated as verifier, not standalone reversible storage. |
+| 2026-08-21 | MA2A-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | L1/L2/L3 state-synchronization architecture disclosed; LLM semantics remain edge-side and optional. |
+| 2026-08-21 | MA2A-0002 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Versioned trajectory-delta synchronization and deterministic conflict classes disclosed. |
+| 2026-08-21 | MA2A-0003 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Organization-rooted Ed25519 PKI, delegated device credentials, challenge-response admission, and revocation/licensing-status separation disclosed. |
+| 2026-08-21 | TRI-0001 | 0.1 | EXPERIMENTAL | existing TRIVAX release lineage | 10.5281/zenodo.21989027 | Compact resolutive decision-core architecture disclosed; benchmark superiority not claimed. |
+| 2026-08-21 | RI-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Compact edge inference with bounded online adaptation disclosed; primary implementation was private at audit date. |
+| 2026-08-21 | RC-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | Coarse-to-fine resolutive search/refinement architecture disclosed; no universal speedup claimed. |
+| 2026-08-21 | RT-0001 | 0.1 | EXPERIMENTAL | public development evidence | — | Reversible trajectory system tied to public exact-roundtrip test lineage; no compression claim. |
+| 2026-08-21 | BA-0001 | 0.1 | EXPERIMENTAL | public development evidence | — | Hierarchical bit-relation analysis tied to adaptive-protection validation/overhead benchmark lineage. |
+| 2026-08-21 | RP-0001 | 0.1 | EXPERIMENTAL | related archived coupled-field model | 10.5281/zenodo.21936796 | Foundational physics registry entry; archived coupled-field model is evidence only for that concrete model, not broader ontology. |
 
 ## Rules
 
@@ -14,3 +24,5 @@ Only stable public disclosures should be entered here. Draft placeholders belong
 2. Historical entries are never deleted to conceal supersession or retraction.
 3. A `PUBLISHED` entry should reference an immutable release/tag and, when available, an archival DOI.
 4. A later technical improvement receives a new version or disclosure ID rather than silently changing the historical record.
+5. `EXPERIMENTAL` records may document concrete mechanisms before a frozen archival release, but must state unresolved evidence and reproducibility gaps.
+6. Registration establishes a chronology of disclosure; it is not, by itself, a legal conclusion that a feature is novel, patentable, non-infringing, or scientifically validated.

@@ -2,9 +2,12 @@
 
 This file maps repository releases and individual technical disclosures to archival DOI records.
 
-| Repository Release | Date | Archive | DOI | Included Disclosures |
+| Repository / Release | Date | DOI | Related disclosure(s) | Notes |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| Memoria.ia v0.95.1 | 2026-08-17 | 10.5281/zenodo.21973472 | RM-0001 lineage | Existing archived project/release record; does not automatically archive later prior-art text. |
+| TRIVAX v0.1.1 | 2026-08 | 10.5281/zenodo.21989027 | TRI-0001 | Archived public experimental baseline. |
+| Coupled Field Vortex Model v0.1.0 | 2026-08-14 | 10.5281/zenodo.21936796 | RP-0001 related model evidence | Applies to the concrete coupled-field model, not to broader Resolutive Physics claims. |
+| Resolutive Prior Art Registry v0.1 | pending | pending | RM/MA2A/TRI/RI/RC/RT/BA/RP | Create only after reference audit, consistency check and immutable release freeze. |
 
 ## Policy
 
@@ -12,3 +15,4 @@ This file maps repository releases and individual technical disclosures to archi
 - Record both version-specific DOI and concept DOI when the archive provides both.
 - Never assign an archival DOI in this registry before the external record actually exists.
 - Keep links between DOI, Git tag, release, disclosure IDs, and reference commits explicit.
+- A DOI attached to a companion repository is evidence for that archived snapshot only; it must not be represented as automatically archiving later disclosures in this registry.
