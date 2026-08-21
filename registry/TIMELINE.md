@@ -2,11 +2,12 @@
 
 Chronological registry of public technical disclosures in the Resolutive Technology family.
 
-Only stable public disclosures should be entered here. Draft placeholders belong in `registry/INDEX.md` until publication.
+Only concrete public disclosures are entered here. Draft placeholders belong in `registry/INDEX.md` until a specification exists.
 
 | Date | ID | Version | Status | Release | DOI | Notes |
 |---|---|---:|---|---|---|---|
-| — | — | — | — | — | — | No frozen disclosure registered yet |
+| 2026-08-21 | RM-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | Memoria.ia project record 10.5281/zenodo.21973472 | Core resolutive-memory mechanism disclosed; O(1) claim explicitly limited to known-address resolution. |
+| 2026-08-21 | MA2A-0001 | 0.1 | EXPERIMENTAL | pending immutable registry release | — | L1/L2/L3 state-synchronization architecture disclosed; LLM semantics remain edge-side and optional. |
 
 ## Rules
 
@@ -14,3 +15,4 @@ Only stable public disclosures should be entered here. Draft placeholders belong
 2. Historical entries are never deleted to conceal supersession or retraction.
 3. A `PUBLISHED` entry should reference an immutable release/tag and, when available, an archival DOI.
 4. A later technical improvement receives a new version or disclosure ID rather than silently changing the historical record.
+5. `EXPERIMENTAL` records may document concrete mechanisms before a frozen archival release, but must state unresolved evidence and reproducibility gaps.
