@@ -34,6 +34,7 @@ A status describes evidence maturity, not commercial readiness and not universal
 
 ## Identifier namespaces
 
+- `RF-xxxx` — Resolutive Family foundational architecture and cross-project mechanisms
 - `RM-xxxx` — Resolutive Memory / Memoria.ia
 - `MA2A-xxxx` — Memoria.ia Agent-to-Agent Protocol
 - `TRI-xxxx` — TRIVAX
