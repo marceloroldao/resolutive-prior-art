@@ -1,11 +1,30 @@
 cff-version: 1.2.0
-message: "If you use or discuss a published disclosure from this registry, cite the corresponding versioned release and DOI when available."
-title: "Resolutive Prior Art"
+message: "If you use or discuss this defensive technical disclosure registry, please cite the versioned release and DOI when available."
+title: "Resolutive Prior Art Registry: Foundational Defensive Technical Disclosures"
 type: dataset
-version: 0.1.0
+version: "0.1.0"
+date-released: "2026-08-22"
 license: CC-BY-NC-4.0
 authors:
   - family-names: "Matos"
     given-names: "Marcelo Roldão"
+    orcid: "https://orcid.org/0009-0003-6075-4680"
 repository-code: "https://github.com/marceloroldao/resolutive-prior-art"
-abstract: "Canonical technical specification and defensive prior-art registry for the Resolutive Technology family."
+url: "https://github.com/marceloroldao/resolutive-prior-art"
+keywords:
+  - prior art
+  - defensive publication
+  - resolutive computing
+  - resolutive memory
+  - trajectory addressing
+  - MA2A
+  - deterministic synchronization
+  - edge AI
+abstract: >-
+  Canonical defensive-publication registry for the Resolutive Technology family.
+  Version 0.1.0 records the foundational architecture and scoped experimental
+  technical disclosures for Resolutive Memory, trajectory addressing, MA2A
+  deterministic state synchronization and organizational PKI, together with
+  related experimental families. Complexity, compression, reversibility,
+  performance and physical claims are limited to the evidence and operations
+  stated in each disclosure.
