@@ -2,6 +2,10 @@
 
 This registry groups disclosures by technical family while preserving independent evidence maturity for each entry.
 
+## RF — Resolutive Family Foundation
+
+Cross-project architectural mechanisms shared by multiple Resolutive computing lines, including state/trajectory addressing, deterministic route reuse, local-first organization, optional external/neural resolution, and shared architectural boundaries. RF entries define common foundations without duplicating project-specific implementations.
+
 ## RM — Resolutive Memory / Memoria.ia
 
 Deterministic memory structures, trajectory-addressed retrieval, state organization, persistence, synchronization primitives, and directly related mechanisms.
@@ -32,7 +36,7 @@ Hierarchical bit/byte relation analysis, multilevel relation structures, reconst
 
 ## RP — Resolutive Physics
 
-Mathematical models and physical hypotheses. Entries in this namespace must state evidence level especially carefully and must not present exploratory models as experimentally established physics.
+Mathematical models and physical hypotheses. Entries in this namespace must state evidence level especially carefully and must not present exploratory models as experimentally established physics. The RP family is not a prerequisite for the computing disclosures in RF/RM/MA2A/RI/RC/RT/BA/TRI.
 
 ## Cross-family disclosures
 
