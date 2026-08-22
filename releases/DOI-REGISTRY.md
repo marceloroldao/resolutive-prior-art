@@ -8,7 +8,7 @@ This file maps repository releases and individual technical disclosures to archi
 | TRIVAX v0.1.1 | 2026-08 | 10.5281/zenodo.21989027 | TRI-0001 | Archived public experimental baseline. |
 | Coupled Field Vortex Model v0.1.0 | 2026-08-14 | 10.5281/zenodo.21936796 | RP-0001 related model evidence | Applies to the concrete coupled-field model, not to broader Resolutive Physics claims. |
 | MA2A v0.1.0-rc1 | 2026-08-21 | 10.5281/zenodo.22048589 | MA2A-0001, MA2A-0002, MA2A-0003 | First public archived MA2A release candidate; DOI applies to the archived release snapshot, not later `main` commits. |
-| Resolutive Prior Art Registry v0.1.0 | pending | pending | RF/RM/MA2A/TRI/RI/RC/RT/BA/RP | Create only after final metadata/link audit and immutable release freeze. RF-0001 is the cross-family foundation for the computing architecture. |
+| Resolutive Prior Art Registry v0.1.0 | 2026-08-22 | 10.5281/zenodo.22055552 | RF/RM/MA2A/TRI/RI/RC/RT/BA/RP | First archival defensive-publication release of the registry. RF-0001 is the cross-family foundation for the computing architecture. |
 
 ## Policy
 
