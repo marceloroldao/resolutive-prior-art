@@ -2,6 +2,12 @@
 
 This index is the canonical map of technical disclosures. IDs are permanent and never reused.
 
+## Resolutive Family Foundation
+
+| ID | Title | Status | Version | DOI |
+|---|---|---|---:|---|
+| [RF-0001](../disclosures/FOUNDATION/RF-0001.md) | Resolutive Technology Family: Foundational Architecture | EXPERIMENTAL | 0.1 | — |
+
 ## Resolutive Memory / Memoria.ia
 
 | ID | Title | Status | Version | DOI |
@@ -13,9 +19,9 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
-| [MA2A-0001](../disclosures/MA2A/MA2A-0001.md) | Protocol Architecture L1/L2/L3 | EXPERIMENTAL | 0.1 | — |
-| [MA2A-0002](../disclosures/MA2A/MA2A-0002.md) | Deterministic State Synchronization | EXPERIMENTAL | 0.1 | — |
-| [MA2A-0003](../disclosures/MA2A/MA2A-0003.md) | Organizational PKI, Licensing Identity, and Handshake | EXPERIMENTAL | 0.1 | — |
+| [MA2A-0001](../disclosures/MA2A/MA2A-0001.md) | Protocol Architecture L1/L2/L3 | EXPERIMENTAL | 0.1 | 10.5281/zenodo.22048589 |
+| [MA2A-0002](../disclosures/MA2A/MA2A-0002.md) | Deterministic State Synchronization | EXPERIMENTAL | 0.1 | 10.5281/zenodo.22048589 |
+| [MA2A-0003](../disclosures/MA2A/MA2A-0003.md) | Organizational PKI, Licensing Identity, and Handshake | EXPERIMENTAL | 0.1 | 10.5281/zenodo.22048589 |
 
 ## TRIVAX
 
