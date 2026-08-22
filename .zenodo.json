@@ -1,0 +1,25 @@
+{
+  "title": "Resolutive Prior Art Registry: Foundational Defensive Technical Disclosures",
+  "description": "Canonical defensive-publication registry for the Resolutive Technology family. Version 0.1.0 records the foundational architecture and scoped experimental technical disclosures for Resolutive Memory, trajectory addressing, MA2A deterministic state synchronization and organizational PKI, together with related experimental families. Complexity, compression, reversibility, performance and physical claims are limited to the evidence and operations stated in each disclosure.",
+  "creators": [
+    {
+      "name": "Matos, Marcelo Roldão",
+      "orcid": "0009-0003-6075-4680"
+    }
+  ],
+  "license": "cc-by-nc-4.0",
+  "keywords": [
+    "prior art",
+    "defensive publication",
+    "resolutive computing",
+    "resolutive memory",
+    "trajectory addressing",
+    "MA2A",
+    "deterministic synchronization",
+    "edge AI"
+  ],
+  "version": "0.1.0",
+  "publication_date": "2026-08-22",
+  "upload_type": "dataset",
+  "access_right": "open"
+}
