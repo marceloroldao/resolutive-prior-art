@@ -10,6 +10,7 @@ This file maps repository releases and individual technical disclosures to archi
 | MA2A v0.1.0-rc1 | 2026-08-21 | 10.5281/zenodo.22048589 | MA2A-0001, MA2A-0002, MA2A-0003 | First public archived MA2A release candidate; DOI applies to the archived release snapshot, not later `main` commits. |
 | Resolutive Prior Art Registry v0.1.0 | 2026-08-22 | 10.5281/zenodo.22055552 | RF/RM/MA2A/TRI/RI/RC/RT/BA/RP | First archival defensive-publication release of the registry. RF-0001 is the cross-family foundation for the computing architecture. |
 | Resolutive Routing v0.1.0 | 2026-09-01 | 10.5281/zenodo.22235924 | RF-0002 related implementation evidence | Archived deterministic routing prototype; supports RF-0002 but does not by itself archive the RF-0002 disclosure text in this registry. |
+| Resolutive Prior Art Registry v0.2.0 | 2026-09-05 | 10.5281/zenodo.22320536 | RM-0003 v0.2, RF-0002 v0.2, RT-0002 v0.3 plus registry snapshot | Second archival defensive-publication release; extends rather than replaces the historical v0.1.0 baseline. |
 
 ## Policy
 
