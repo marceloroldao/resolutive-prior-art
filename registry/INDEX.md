@@ -7,6 +7,7 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
 | [RF-0001](../disclosures/FOUNDATION/RF-0001.md) | Resolutive Technology Family: Foundational Architecture | EXPERIMENTAL | 0.1 | — |
+| [RF-0002](../disclosures/FOUNDATION/RF-0002.md) | Policy-First Admissible Routing for Knowledge and Compute | EXPERIMENTAL | 0.1 | related project DOI: 10.5281/zenodo.22235924 |
 
 ## Resolutive Memory / Memoria.ia
 
@@ -14,6 +15,7 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 |---|---|---|---:|---|
 | [RM-0001](../disclosures/RM/RM-0001.md) | Resolutive Memory Core | EXPERIMENTAL | 0.1 | project record: 10.5281/zenodo.21973472 |
 | [RM-0002](../disclosures/RM/RM-0002.md) | Trajectory Addressing and Retrieval | EXPERIMENTAL | 0.1 | — |
+| [RM-0003](../disclosures/RM/RM-0003.md) | Persistent Concept Identity and Deterministic Concept-Relation Resolution | EXPERIMENTAL | 0.1 | — |
 
 ## MA2A Protocol
 
@@ -46,6 +48,7 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
 | [RT-0001](../disclosures/TRAJECTORY/RT-0001.md) | Reversible Trajectory State System | EXPERIMENTAL | 0.1 | — |
+| [RT-0002](../disclosures/TRAJECTORY/RT-0002.md) | Information-Event Time and Recurrent Causal Trajectory Compression | EXPERIMENTAL | 0.1 | — |
 
 ## Bit Analysis
 
@@ -65,4 +68,4 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 
 See [EVIDENCE_MATRIX.md](EVIDENCE_MATRIX.md) for cross-repository evidence strength, pinned commits, visibility, archives, and remaining gaps.
 
-See [AUDIT_STATUS.md](AUDIT_STATUS.md) for the current v0.1 release gate and blockers.
+See [AUDIT_STATUS.md](AUDIT_STATUS.md) for release/audit status.
