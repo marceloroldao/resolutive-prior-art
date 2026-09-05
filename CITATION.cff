@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use or discuss this defensive technical disclosure registry, please cite the versioned release and DOI when available."
-title: "Resolutive Prior Art Registry: Foundational Defensive Technical Disclosures"
+title: "Resolutive Prior Art Registry: Defensive Technical Disclosures"
 type: dataset
-version: "0.1.0"
-date-released: "2026-08-22"
+version: "0.2.0"
+date-released: "2026-09-05"
 license: CC-BY-NC-4.0
 authors:
   - family-names: "Matos"
@@ -16,15 +16,18 @@ keywords:
   - defensive publication
   - resolutive computing
   - resolutive memory
+  - concept identity
   - trajectory addressing
+  - information-event time
+  - deterministic routing
   - MA2A
-  - deterministic synchronization
   - edge AI
 abstract: >-
   Canonical defensive-publication registry for the Resolutive Technology family.
-  Version 0.1.0 records the foundational architecture and scoped experimental
-  technical disclosures for Resolutive Memory, trajectory addressing, MA2A
-  deterministic state synchronization and organizational PKI, together with
-  related experimental families. Complexity, compression, reversibility,
-  performance and physical claims are limited to the evidence and operations
-  stated in each disclosure.
+  Version 0.2.0 extends the archival baseline with persistent concept identity
+  and restart-safe native concept resolution, policy-first admissible routing
+  across knowledge and heterogeneous compute resources, and an operational
+  information-event trajectory codec with exact microscopic round-trip
+  reconstruction in the documented recurrent domain. Claims remain limited to
+  the specific mechanisms, evidence, assumptions and scope stated in each
+  disclosure.
