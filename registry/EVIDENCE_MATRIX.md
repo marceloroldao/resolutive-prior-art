@@ -13,9 +13,10 @@ This matrix links each Resolutive disclosure to public or private implementation
 |---|---|---|---|---|---|---|
 | RM-0001 | `marceloroldao/memoria.ia` | Public | `c1585f6...` stable v0.95.0 line; `263a731...` current docs lineage | `10.5281/zenodo.21973472` (v0.95.1 citation record) | A/B | Pin exact core source/test paths for each normative RM primitive and archive this registry disclosure. |
 | RM-0002 | `marceloroldao/trajectory.generator` + `memoria.ia` | Public | trajectory exact-roundtrip/test line including `bfd08d2...` | none specific | B | Prove reconstruction contract with all descriptor/side-information bits accounted for; do not infer compression. |
-| MA2A-0001 | `marceloroldao/ma2a` + prior RFC in `memoria.ia` | Public | merged public MA2A rc1-preparation baseline `9c9d726bc32df696c5b358ee1d84697d1fec9b49`; prior RFC lineage `b2fef4b...` | none specific | B | Freeze/tag the rc1 snapshot and archive an immutable release. |
-| MA2A-0002 | `marceloroldao/ma2a` | Public | `9c9d726...` deterministic conflict resolver, convergence/replay/scope/stale tests, independent-process interoperability and green Python 3.11/3.12 CI | none | B | Freeze policy/version under an immutable tag and archive the release. |
-| MA2A-0003 | `marceloroldao/ma2a` | Public | `9c9d726...` Ed25519 Root->Organization->Device/Agent reference, challenge-response, organization/device status checks, malformed-input hardening, seeded fuzz-style tests and security review | none | B | Freeze/tag the experimental security baseline and archive it; independent production security audit remains outside rc1. |
+| RF-0002 | `marceloroldao/resolutive-routing` | Public | archived v0.1 baseline plus v0.2 candidate main `17bf787d92589ad398bf9f65c1eecbbbbde8f6b1`: C++20 deterministic router, Python/C++ parity, cumulative exclusion/reroute, authenticated MA2A failure adapter, routing contract v0.2, green Python 3.10–3.13 and assertion-enabled C++ CI | `10.5281/zenodo.22235924` applies only to archived routing v0.1.0; v0.2 candidate has no DOI yet | A/B | Create immutable `v0.2.0-rc1` tag/release, archive that exact snapshot, then record the new DOI without rewriting the v0.1 archive. |
+| MA2A-0001 | `marceloroldao/ma2a` + prior RFC in `memoria.ia` | Public | archived v0.1 implementation lineage `9c9d726bc32df696c5b358ee1d84697d1fec9b49`; current v0.2 candidate main `22846a55bc9dffdec8e8cf18aa51e3ea6756fac0` adds RFC v0.2, pinned routing boundary, native C++20 execution path and frozen resilient-execution contract | `10.5281/zenodo.22048589` applies only to archived MA2A v0.1.0-rc1; v0.2 candidate has no DOI yet | A/B | Create immutable `v0.2.0-rc1` tag/release and archive the exact v0.2 snapshot; preserve the v0.1 DOI as historical evidence. |
+| MA2A-0002 | `marceloroldao/ma2a` | Public | v0.1 deterministic synchronization evidence plus v0.2 candidate `22846a55bc9dffdec8e8cf18aa51e3ea6756fac0`: real `resolutive-routing` integration, deterministic B→C→D failover, cumulative exclusions, route-vs-attempt exhaustion, assertion-enabled 17-test C++ gate and 30,000-request stress run with zero observed divergences | `10.5281/zenodo.22048589` remains the archived v0.1 MA2A record; no v0.2 DOI yet | A/B | Tag/archive the exact v0.2 candidate and preserve the stress artifact plus pinned routing SHA as release evidence. |
+| MA2A-0003 | `marceloroldao/ma2a` | Public | v0.1 Ed25519 PKI/admission lineage plus v0.2 candidate `22846a55bc9dffdec8e8cf18aa51e3ea6756fac0`: signed `JobRequest`/`JobResult`/`FailureNotice`, per-target re-signing, malformed/oversized/forged-input adversarial gate, bounded TCP deadlines and `security/SECURITY_REVIEW_v0.2.md` | `10.5281/zenodo.22048589` archives only v0.1; v0.2 candidate has no DOI yet | A/B | Tag/archive the v0.2 security baseline; production channel security, PKI-bound key resolution, persistent replay protection and independent external audit remain open. |
 | TRI-0001 | `marceloroldao/trivax` | Public | `0386fe8...` v0.1.0 package freeze; `f58d625...` archived v0.1.1 DOI update | `10.5281/zenodo.21989027` | A | Pin disclosure sections to exact runtime/benchmark paths and preserve archived result artifacts. |
 | RI-0001 | `marceloroldao/resolutive-inference` | **Private** at audit date | `9bd6f46...` streaming edge infrastructure; `b494af9...` synthetic benchmark foundation | none | D | Publish a sufficient implementation/reproducibility baseline or ensure the public disclosure itself is enabling and archive it. |
 | RC-0001 | `marceloroldao/resolutive-computing` | Public | `1122766...` initial public repository baseline; `60b0f56...` governance/licensing alignment | none | B/C | Pin benchmark scripts/results supporting coarse-to-fine claims and archive a reproducible release. |
@@ -27,40 +28,53 @@ This matrix links each Resolutive disclosure to public or private implementation
 
 ### 1. Strongest archival anchors
 
-At this audit date, the strongest public archival anchors are:
+Public archival anchors currently include:
 
 - Memoria.ia v0.95.1 citation/archive lineage — DOI `10.5281/zenodo.21973472`;
 - TRIVAX v0.1.1 — DOI `10.5281/zenodo.21989027`;
-- Coupled Field Vortex Model v0.1.0 — DOI `10.5281/zenodo.21936796`.
+- Coupled Field Vortex Model v0.1.0 — DOI `10.5281/zenodo.21936796`;
+- MA2A v0.1.0-rc1 — DOI `10.5281/zenodo.22048589`;
+- Resolutive Routing v0.1.0 — DOI `10.5281/zenodo.22235924`;
+- Resolutive Prior Art Registry v0.2.0 — DOI `10.5281/zenodo.22320536`.
 
-These DOIs archive project/release evidence. They do not automatically archive every later disclosure in this registry; a `resolutive-prior-art` release should receive its own archival record.
+These DOIs identify their exact archived project/release snapshots. They do not automatically archive later development commits or later candidate releases.
 
 ### 2. Public Git history is useful but not equivalent to an archival disclosure
 
-Trajectory Generator and Bit Analyze have useful public implementation/test history. MA2A now goes further: its public baseline includes implementation, CI, interoperability, parser hardening, negative security tests and a documented security review. Its remaining evidentiary step is to bind that snapshot to an immutable tag/archive.
+Trajectory Generator and Bit Analyze have useful public implementation/test history. MA2A and resolutive-routing now also have exact v0.2 candidate commits with reproducible CI evidence. These Git commits materially strengthen provenance, but they remain development evidence until each candidate is bound to an immutable tag/release and archival deposit.
 
 ### 3. Private repositories are not relied upon as public prior art
 
 `resolutive-inference` was private when audited on 2026-08-21. Its commits can support internal provenance, but they are not treated here as public disclosure evidence. RI-0001 must therefore stand on the public specification until a sufficient implementation baseline is made public and archived.
 
-### 4. MA2A now has executable public evidence
+### 4. MA2A v0.2 candidate has executable public evidence
 
-The dedicated public `marceloroldao/ma2a` repository has a merged public rc1-preparation baseline at `9c9d726bc32df696c5b358ee1d84697d1fec9b49`. It contains the protocol draft, deterministic conflict resolution, independent-process interoperability, Ed25519 organization/device certificate handling, challenge-response authentication, separate organization/device revocation status, malformed-input hardening, seeded fuzz-style tests, CI on Python 3.11/3.12, source-available research licensing boundaries and an internal security review.
+The historical MA2A v0.1 line remains archived under DOI `10.5281/zenodo.22048589`.
 
-The remaining prior-art quality milestone is no longer implementation completeness for the disclosed rc1 mechanisms; it is immutable release/tag + archival deposit and DOI.
+The v0.2 candidate is pinned at `22846a55bc9dffdec8e8cf18aa51e3ea6756fac0`. It adds the C++20 resilient-execution path, signed execution/failure evidence, an exact routing dependency pin, adversarial transport/authentication gates, assertion-enabled Release CI and a 30,000-request deterministic stress gate with zero observed divergences.
 
-### 5. Physics requires claim-by-claim separation
+The remaining evidentiary milestone for v0.2 is immutable tag/release + archival deposit + new DOI. The v0.1 DOI must not be reused for the v0.2 snapshot.
+
+### 5. Resolutive-routing v0.2 candidate is pinned but not yet archived
+
+The routing implementation candidate is pinned at `17bf787d92589ad398bf9f65c1eecbbbbde8f6b1`. It contains the C++20 routing hot path, deterministic rerouting, Python/C++ parity, authenticated MA2A failure adaptation and the v0.2 routing ownership contract.
+
+Its historical v0.1 DOI `10.5281/zenodo.22235924` remains valid only for the archived v0.1 release.
+
+The next evidentiary step is an immutable `v0.2.0-rc1` tag/release and a new archival DOI for that exact snapshot.
+
+### 6. Physics requires claim-by-claim separation
 
 The archived coupled-field vortex model is a concrete reproducible model. It must not be used as blanket evidence for unrelated cosmological, gravitational, quantum, atomic, or ontological claims. Those require separate IDs, equations, datasets, baselines, parameter accounting and falsification criteria.
 
 ## Required next archive package
 
-Before `resolutive-prior-art` v0.1 is marked PUBLISHED:
+For the next MA2A/routing archival update:
 
-1. pin all disclosure files to this repository commit/tag;
-2. add exact source/test paths where available;
-3. run a link/reference consistency check;
-4. preserve EXPERIMENTAL status for claims without independent validation;
-5. create an immutable GitHub release/tag;
-6. archive the release on Zenodo and record its DOI in `releases/DOI-REGISTRY.md`;
-7. never rewrite the archived v0.1 disclosure history—use later versions or superseding IDs.
+1. create immutable `v0.2.0-rc1` tags/releases for MA2A and resolutive-routing at the exact candidate snapshots;
+2. archive those tagged snapshots on Zenodo and record their new DOIs;
+3. update `releases/DOI-REGISTRY.md` only after the DOI records actually exist;
+4. preserve the existing v0.1 DOI rows as historical records rather than overwriting them;
+5. pin any later disclosure revision to exact source/test paths and release commits;
+6. preserve EXPERIMENTAL status for claims without independent validation;
+7. never rewrite archived disclosure history—use later versions or superseding IDs.
