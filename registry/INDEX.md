@@ -7,7 +7,7 @@ This index is the canonical map of technical disclosures. IDs are permanent and 
 | ID | Title | Status | Version | DOI |
 |---|---|---|---:|---|
 | [RF-0001](../disclosures/FOUNDATION/RF-0001.md) | Resolutive Technology Family: Foundational Architecture | EXPERIMENTAL | 0.1 | — |
-| [RF-0002](../disclosures/FOUNDATION/RF-0002.md) | Policy-First Admissible Routing for Knowledge and Compute | EXPERIMENTAL | 0.2 | related project DOI: 10.5281/zenodo.22235924 |
+| [RF-0002](../disclosures/FOUNDATION/RF-0002.md) | Policy-First Admissible Routing for Knowledge and Compute | EXPERIMENTAL | 0.2 | related v0.2 implementation DOI: 10.5281/zenodo.22866104 |
 
 ## Resolutive Memory / Memoria.ia
 
